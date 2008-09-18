@@ -1,0 +1,14 @@
+load 'deploy' if respond_to?(:namespace) # cap2 differentiator
+Dir['*.rb'].each { |plugin| load(plugin) }
+
+# =============================================================
+
+set :application, "Panda"
+set :domain, "your domain or ip"
+role :app, domain
+role :web, domain
+role :db,  domain, :primary => true
+
+set :user, "something with root"
+
+set :deploy_to, "/home/"
