@@ -1,0 +1,35 @@
+This is basically a set of Capistrano commands that *should* set-up your server for Panda with MySql.
+
+It's pretty messy but does work for myself, so it's not all bad.
+
+TO DO A ONE COMMAND INSTALL - cap panda:install
+
+Please follow the commands in this order:
+
+cap panda:....
+
+  apt_get_update
+  install_ruby
+  install_rubygems
+  install_gems
+  install_mysql
+  install_git
+  install_imagemagick
+  install_all_required_files
+  install_libjpeg
+  install_zlib
+  install_libgd
+  install_rvideo
+  install_ffmpeg
+  install_nginx
+  copy_panda
+
+
+Other Commands Include
+
+cap panda:...
+
+  start_nginx
+  stop_nginx
+  restart_nginx
+  update_gems
