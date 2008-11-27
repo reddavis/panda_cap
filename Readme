@@ -6,6 +6,12 @@ TO DO A ONE COMMAND INSTALL - cap panda:install
 
 Please follow the commands in this order:
 
+Author
+Red Davis (http://redwriteshere.com)
+
+Contributors
+Edward Ocampo-Gooding (http://github.com/edward)
+
 cap panda:....
 
   apt_get_update
